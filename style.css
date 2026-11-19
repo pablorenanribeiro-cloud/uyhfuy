@@ -1,0 +1,103 @@
+/* =========================================
+   Reset Básico e Configurações Globais
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* =========================================
+   Cabeçalho
+   ========================================= */
+.cabecalho-principal {
+    background-color: #005f73;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* =========================================
+   Navegação
+   ========================================= */
+.menu-navegacao {
+    background-color: #0a9396;
+}
+
+.menu-navegacao ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-navegacao li {
+    margin: 0;
+}
+
+.menu-navegacao a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+    background-color: #005f73;
+}
+
+/* =========================================
+   Conteúdo Principal (Seções)
+   ========================================= */
+.secao-conteudo {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secao-conteudo h2 {
+    color: #005f73;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+/* Organização dos cartões de tecnologia */
+.container-tecnologias {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cartao-tecnologia {
+    background-color: #e9d8a6;
+    padding: 1.5rem;
+    border-radius: 6px;
+    flex: 1; /* Permite que os cartões dividam o espaço igualmente */
+}
+
+.cartao-tecnologia h3 {
+    color: #001219;
+    margin-bottom: 0.5rem;
+}
+
+/* =========================================
+   Rodapé
+   ========================================= */
+.rodape-principal {
+    background-color: #001219;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
